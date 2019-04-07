@@ -1,0 +1,17 @@
+h1 {
+	font-family: Helvetica, sans-serif;
+	font-size: 60px;
+	color: #0085FF;
+}
+a {
+	text-decoration: none;
+}
+p {
+	font-family: Arial, sans-serif;
+}
+#slogan {
+	font-style: italic;
+}
+body {
+	background-color: #FEF8F2;
+}
