@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css?family=Noto+Serif');
+@import url('https://fonts.googleapis.com/css?family=Lato');
+
+* {
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+
+html {
+	height: 100%;
+}
+
+body {
+	font-family: 'Lato', sans-serif;
+	font-size: 16px;
+	line-height: 1.5em;
+	background-color: #FEF8F2;
+}
+
+header {
+  	font-size: 20px;
+ 	width: 100%;
+}
+
+header a{
+	text-decoration: none;
+	display: block;
+	float: left;
+	padding: 20px;
+}
+
+input {
+	float: right;
+}
+
+section {
+	padding: 20px;
+}
+
+section a{
+	background-color: #0085FF;
+	color: white;
+	padding: 10px;
+	text-decoration: none;
+	float: left;
+}
+
+div {
+	display: block;
+	float: left;
+	width: 50%;
+}
+
+img {
+	max-width: 300px;
+	max-height: 300px;
+}
+
+footer {
+	color: white;
+	background-color: black;
+    padding: 20px;
+    text-align: center;
+}
+
+footer a{
+	padding: 10px;
+}
+
+h1, h2, h3 {
+	font-family: 'Noto Serif', serif;
+	line-height: 1em;
+}
+
+h1 {
+	font-size: 60px;
+	color: #0085FF;
+	margin: .5em 0;
+}
+
+i {
+	font-size: 30px;
+	color: white;
+}
+
+#slogan {
+	font-style: italic;
+}
+
+#intro {
+	background-image: url("../images/boardroom.jpg");
+	background-size: cover;
+	height: 50vh;
+	background-repeat: no-repeat;
+}
+
+#logo {
+	width: 80px;
+}
+
+#feature {
+    padding: 20px;
+}
+
+#feature1 {
+    padding: 20px;
+    float: left;
+    width: 33%;
+}
+
+#feature2 {
+    padding: 20px;
+    float: left;
+    width: 33%;
+}
+
+#feature3 {
+    padding: 20px;
+    float: left;
+    width: 33%;
+}
+
+#recent {
+	padding: 20px;
+}
+
+#recent1 {
+    padding: 20px;
+    float: left;
+    width: 25%;
+}
+
+#recent2 {
+    padding: 20px;
+    float: left;
+    width: 25%;
+}
+
+#recent3 {
+    padding: 20px;
+    float: left;
+    width: 25%;
+}
+
+#recent4 {
+	padding: 20px;
+	float: left;
+	width: 25%;
+}
+
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+}
