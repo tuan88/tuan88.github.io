@@ -12,11 +12,16 @@
 <body>
  	<header class="clearfix">
 			<a><img id="logo" src="images/nacd_logo.svg" alt="NACD Logo" title="NACD Logo"></a>
-  			<a href="#">Login/Register</a>
-  			<a href="#">Archive</a>
-  			<a href="#">Contributer Guidelines</a>
-  			<a href="#">Contact</a>
-		<input type="search" name="My Search Bar">
+			<menu>
+  				<a href="#">Login/Register</a>
+  				<a href="#">Archive</a>
+  				<a href="#">Contributer Guidelines</a>
+  				<a href="#">Contact</a>
+  			</menu>
+  			<div1 id="search">
+			<input type="search" name="My Search Bar">
+			<i class="fas fa-search"></i>
+			</div1>
 	</header>
 
 	<main>
@@ -30,18 +35,25 @@
 		</section>
 		
 		<aside id="feature" class="clearfix">
-			<article id="feature1">
-				<img src="images/cover story.jpg" alt="Empty Meeting Room" title="Boardroom">
+			<article class="featureitem" id="feature1">
+				<figure>
+					<img src="images/cover story.jpg" alt="Empty Meeting Room" title="Boardroom">
+				</figure>
 				<h2>Featured Article Title 1</h2>
 				<h4>Author 1</h4>
 			</article>
-			<article id="feature2">
+
+			<article class="featureitem" id="feature2">
+				<figure>
 				<img src="images/5G.jpg" alt="Empty Meeting Room" title="Boardroom">
+			</figure>
 				<h2>Featured Article Title 2</h2>
 				<h4>Author 2</h4>
 			</article>
-			<article id="feature3">
+			<article class="featureitem" id="feature3">
+				<figure>
 				<img src="images/D100.jpg" alt="Empty Meeting Room" title="Boardroom">
+			</figure>
 				<h2>Featured Article Title 3</h2>
 				<h4>Author 3</h4>
 			</article>
