@@ -1,3 +1,8 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
 h1 {
 	font-family: Helvetica, sans-serif;
 	font-size: 60px;
@@ -11,6 +16,10 @@ p {
 }
 #slogan {
 	font-style: italic;
+}
+img {
+	display: block;
+	width: 100%;
 }
 body {
 	background-color: #FEF8F2;

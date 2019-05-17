@@ -2,37 +2,72 @@
 @import url('https://fonts.googleapis.com/css?family=Lato');
 
 * {
-	margin: 12px;
-	padding: 0em;
+	margin: 0px;
+	padding: 0px;
 	box-sizing: border-box;
 }
 
-h1 {
+html {
+	height: 100%;
+}
+
+body {
+	font-family: 'Lato', sans-serif;
+	font-size: 16px;
+	line-height: 1.5em;
+	background-color: #FEF8F2;
+}
+
+header {
+	display: inline;
+}
+
+footer {
+	position: fixed;
+	right: 0;
+	bottom: 0;
+	width: 25%;
+	text-align: right;
+	color: white;
+}
+
+h1, h2 {
 	font-family: 'Noto Serif', serif;
+}
+
+h1 {
 	font-size: 60px;
 	color: #0085FF;
+	margin: .5em 0;
 }
 
 a {
 	text-decoration: none;
 }
 
-p {
-	font-family: 'Lato', sans-serif;
-	font-size: 16px;
-	line-height: 1.5em;
-	margin: 2em;
+i {
+	font-size: 30px;
+	color: white;
+}
+
+.nav {
+  list-style-type: none;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  display: inline-block;
+  font-size: 20px;
+  padding: 20px;
+  width: 100%;
 }
 
 #slogan {
 	font-style: italic;
 }
 
-img {
-	display: block;
-	width: 100%;
-}
-
-body {
-	background-color: #FEF8F2;
+#intro {
+	background-image: url("E:/alex tuan/Documents/GitHub/tuan88.github.io/unit_4/images/boardroom.jpg");
+	background-size: cover;
+	height: 100%;
+	background-repeat: no-repeat;
 }
