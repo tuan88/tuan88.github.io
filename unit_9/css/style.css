@@ -1,0 +1,213 @@
+@import url('https://fonts.googleapis.com/css?family=Noto+Serif');
+@import url('https://fonts.googleapis.com/css?family=Lato');
+
+* {
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+
+html {
+	height: 100%;
+}
+
+body {
+	font-family: 'Lato', sans-serif;
+	font-size: 18px;
+	line-height: 1.5em;
+	background-color: #FEF8F2;
+}
+
+header {
+ 	width: 100%;
+ 	align-items: center;
+}
+
+header menu {
+	padding-top: 11px;
+}
+
+header a{
+	font-size: 20px;
+	text-decoration: none;
+	display: block;
+	float: left;
+	padding: 20px;
+}
+
+header div input {
+	padding: 5px 15px;
+}
+
+main section div {
+	display: block;
+	float: left;
+	width: 70%;
+}
+
+section {
+	padding: 20px;
+}
+
+section a{
+	background-color: #0085FF;
+	color: white;
+	padding: 10px 20px;
+	text-decoration: none;
+	float: left;
+	margin-top: 1em;
+}
+
+figure {
+	margin-bottom: 5px;
+}
+
+img {
+	width: 100%;
+}
+
+footer {
+	color: white;
+	background-color: black;
+    padding: 20px;
+    text-align: center;
+}
+
+footer a{
+	padding: 10px;
+}
+
+h1, h2, h3 {
+	font-family: 'Noto Serif', serif;
+	line-height: 1em;
+}
+
+h1 {
+	font-size: 4em;
+	color: #0085FF;
+}
+
+i {
+	font-size: 30px;
+	color: white;
+}
+
+#slogan {
+	font-style: italic;
+	font-size: 1.5em;
+	margin-bottom: .5em;
+}
+
+#intro {
+	background-image: url("../images/boardroom.jpg");
+	background-size: cover;
+	height: 50vh;
+	background-repeat: no-repeat;
+}
+
+#logo {
+	width: 80px;
+}
+
+.featureitem {
+    padding: 20px;
+    float: left;
+    width: 33.33%;
+}
+.featureitem figure{
+	width: 100%;
+	height: 0;
+	padding-bottom: 100%;
+	background-color: orange;
+	position: relative;
+	overflow: hidden;
+}
+.featureitem figure img{
+	width: auto;
+	height: 100%;
+	position: absolute;
+}
+
+.recent {
+    padding: 20px;
+    float: left;
+    width: 25%;
+}
+
+#search {
+	padding-right: 20px;
+	float: right;
+	padding-top: 20px;
+}
+
+.fa-search {
+	color: grey;
+	font-size: 20px;
+}
+
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+}
+
+@media only screen and (max-width: 1012px) {
+	body {
+		font-size: 16px;
+	}
+	header {
+		text-align: center;
+		padding-top: 10px;
+	}
+	header menu {
+		display: inline-block;
+		float: none;
+		margin: 10px 0;
+	}
+	header a {
+		display: inline;
+		float: none;
+		padding: 10px 20px;
+	}
+	main section div {
+		width: 90%;
+	}
+	h1 {
+		font-size: 3em;
+	}
+	#search {
+	padding-right: 0px;
+	padding-bottom: 20px;
+	float: none;
+	}
+	#slogan {
+		font-size: 1.2em;
+	}
+}
+
+@media only screen and (max-width: 655px) {
+	body {
+		font-size: 14px;
+	}
+	header a {
+		display: block;
+	}
+	section {
+		display: none;
+	}
+	.featureitem {
+    width: 100%;
+	}
+	.featureitem figure{
+	padding-bottom: 60%;
+	}
+	.featureitem figure img{
+	width: 100%;
+	height: auto;
+	}
+	.recent {
+    width: 50%;
+}
