@@ -21,6 +21,8 @@ body {
 header {
  	width: 100%;
  	align-items: center;
+ 	max-width: 1300px;
+ 	margin: 0 auto;
 }
 
 header menu {
@@ -37,6 +39,11 @@ header a{
 
 header div input {
 	padding: 5px 15px;
+}
+
+body main {
+	max-width: 1300px;
+	margin: 0 auto;
 }
 
 main section div {
